@@ -12,12 +12,77 @@ header {
 }
 
 main {
-  padding: 2em;
+  padding: 10em;
   max-width: 800px;
   margin: auto;
   background: #fff;
 }
 
+.aboutHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-image: url("../images/headers/aboutBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1000;
+
+  /* Blur effect */
+  backdrop-filter: blur(10px); /* this blurs the *background behind* the navbar */
+  background-color: rgba(255, 255, 255, 0.3); /* optional: translucent overlay */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.vietnamHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-image: url("../images/headers/VietnamBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1000;
+
+  /* Blur effect */
+  backdrop-filter: blur(10px); /* this blurs the *background behind* the navbar */
+  background-color: rgba(255, 255, 255, 0.3); /* optional: translucent overlay */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nbaHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-image: url("../images/headers/nbaBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1000;
+
+  /* Blur effect */
+  backdrop-filter: blur(10px); /* this blurs the *background behind* the navbar */
+  background-color: rgba(255, 255, 255, 0.3); /* optional: translucent overlay */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contactHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-image: url("../images/headers/contactBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1000;
+
+  /* Blur effect */
+  backdrop-filter: blur(10px); /* this blurs the *background behind* the navbar */
+  background-color: rgba(255, 255, 255, 0.3); /* optional: translucent overlay */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*Navigation links*/
 nav a {
   color: #fff;
   margin: 0 15px;
